@@ -1,0 +1,1 @@
+print("执行git commit --amend")

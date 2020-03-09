@@ -2,9 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="fd99da2e-633b-4a0e-aaed-57321220d5d4" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/testtttt/testa.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/testtttt/webstudy.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/testtttt/testa.py" beforeDir="false" afterPath="$PROJECT_DIR$/testtttt/testa.py" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -23,7 +21,11 @@
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/testtttt/testa.py">
-          <provider selected="true" editor-type-id="text-editor" />
+          <provider selected="true" editor-type-id="text-editor">
+            <state>
+              <caret column="29" lean-forward="true" selection-start-column="29" selection-end-column="29" />
+            </state>
+          </provider>
         </entry>
       </file>
     </leaf>
@@ -89,14 +91,14 @@
         <option value="$PROJECT_DIR$/testtttt/webs_servicere.py" />
         <option value="$PROJECT_DIR$/testtttt/test_webpac.py" />
         <option value="$PROJECT_DIR$/testtttt/testttstst.py" />
-        <option value="$PROJECT_DIR$/testtttt/testa.py" />
         <option value="$PROJECT_DIR$/testtttt/webstudy.py" />
+        <option value="$PROJECT_DIR$/testtttt/testa.py" />
       </list>
     </option>
   </component>
-  <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="13" />
-    <option name="y" value="54" />
+  <component name="ProjectFrameBounds">
+    <option name="x" value="718" />
+    <option name="y" value="-857" />
     <option name="width" value="1378" />
     <option name="height" value="733" />
   </component>
@@ -330,7 +332,7 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="127587000" />
+    <option name="totallyTimeSpent" value="129505000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -342,15 +344,15 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
+    <frame x="718" y="-857" width="1378" height="733" extended-state="0" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.18683812" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.18740515" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.52459013" />
+      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.53422374" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -722,7 +724,11 @@
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/testtttt/testa.py">
-      <provider selected="true" editor-type-id="text-editor" />
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret column="29" lean-forward="true" selection-start-column="29" selection-end-column="29" />
+        </state>
+      </provider>
     </entry>
   </component>
   <component name="masterDetails">
