@@ -36289,3 +36289,162 @@ AssertionError: 2 != 0
 2020-03-06 20:32:03,315 - [test_withdraw.py-->line:84] - ERROR: 用例提现金额-3位小数执行通过
 2020-03-06 20:32:03,543 - [test_withdraw.py-->line:84] - ERROR: 用例提现金额-大于50万执行通过
 2020-03-06 20:32:03,764 - [test_withdraw.py-->line:84] - ERROR: 用例提现金额-非数字执行通过
+2020-03-11 20:59:19,423 - [test_audit.py-->line:99] - ERROR: 用例审核通过执行通过
+2020-03-11 20:59:19,814 - [test_audit.py-->line:99] - ERROR: 用例审核执行通过
+2020-03-11 20:59:20,079 - [test_audit.py-->line:99] - ERROR: 用例审核执行通过
+2020-03-11 20:59:20,366 - [test_audit.py-->line:99] - ERROR: 用例审核执行通过
+2020-03-11 20:59:20,648 - [test_audit.py-->line:99] - ERROR: 用例审核执行通过
+2020-03-11 20:59:20,968 - [test_info.py-->line:73] - ERROR: 用例管理员执行通过
+2020-03-11 20:59:21,254 - [test_invest.py-->line:64] - ERROR: 用例管理员正常登录执行通过
+2020-03-11 20:59:21,447 - [test_invest.py-->line:64] - ERROR: 用例管理员加标执行通过
+2020-03-11 20:59:21,650 - [test_invest.py-->line:64] - ERROR: 用例管理员审核执行通过
+2020-03-11 20:59:21,871 - [test_invest.py-->line:64] - ERROR: 用例投资人正常登录执行通过
+2020-03-11 20:59:22,167 - [test_invest.py-->line:64] - ERROR: 用例投资人正常投资执行通过
+2020-03-11 20:59:22,483 - [test_invest.py-->line:64] - ERROR: 用例投资人id为空执行通过
+2020-03-11 20:59:22,709 - [test_invest.py-->line:64] - ERROR: 用例标id为空执行通过
+2020-03-11 20:59:22,929 - [test_invest.py-->line:64] - ERROR: 用例投资金额为空执行通过
+2020-03-11 20:59:23,144 - [test_invest.py-->line:64] - ERROR: 用例投资金额大于项目可投金额执行通过
+2020-03-11 20:59:23,445 - [test_invest.py-->line:64] - ERROR: 用例投资金额等于项目可投金额执行通过
+2020-03-11 20:59:23,837 - [test_loanadd.py-->line:79] - ERROR: 用例CC执行通过
+2020-03-11 20:59:24,157 - [test_loanadd.py-->line:79] - ERROR: 用例CC执行通过
+2020-03-11 20:59:24,353 - [test_loanadd.py-->line:79] - ERROR: 用例CC执行通过
+2020-03-11 20:59:24,550 - [test_loanadd.py-->line:79] - ERROR: 用例CC执行通过
+2020-03-11 20:59:24,755 - [test_loanadd.py-->line:79] - ERROR: 用例CC执行通过
+2020-03-11 20:59:24,973 - [test_loanadd.py-->line:79] - ERROR: 用例CC执行通过
+2020-03-11 20:59:25,169 - [test_loanadd.py-->line:79] - ERROR: 用例CC执行通过
+2020-03-11 20:59:25,360 - [test_loanadd.py-->line:79] - ERROR: 用例CC执行通过
+2020-03-11 20:59:25,553 - [test_loanadd.py-->line:79] - ERROR: 用例CC执行通过
+2020-03-11 20:59:25,817 - [test_loanadd.py-->line:79] - ERROR: 用例CC执行通过
+2020-03-11 20:59:26,078 - [test_loanadd.py-->line:79] - ERROR: 用例CC执行通过
+2020-03-11 20:59:26,364 - [test_login.py-->line:38] - ERROR: 用例登录成功执行未通过
+2020-03-11 20:59:26,364 - [test_login.py-->line:39] - ERROR: 0 != 1001
+Traceback (most recent call last):
+  File "D:\apitest\testcases\test_login.py", line 34, in test_login
+    self.assertEqual(expected["code"], res["code"])
+  File "D:\Python38\lib\unittest\case.py", line 912, in assertEqual
+    assertion_func(first, second, msg=msg)
+  File "D:\Python38\lib\unittest\case.py", line 905, in _baseAssertEqual
+    raise self.failureException(msg)
+AssertionError: 0 != 1001
+2020-03-11 20:59:26,563 - [test_login.py-->line:38] - ERROR: 用例手机号为空执行未通过
+2020-03-11 20:59:26,563 - [test_login.py-->line:39] - ERROR: 1 != 2
+Traceback (most recent call last):
+  File "D:\apitest\testcases\test_login.py", line 34, in test_login
+    self.assertEqual(expected["code"], res["code"])
+  File "D:\Python38\lib\unittest\case.py", line 912, in assertEqual
+    assertion_func(first, second, msg=msg)
+  File "D:\Python38\lib\unittest\case.py", line 905, in _baseAssertEqual
+    raise self.failureException(msg)
+AssertionError: 1 != 2
+2020-03-11 20:59:26,835 - [test_login.py-->line:44] - ERROR: 用例密码为空执行通过
+2020-03-11 20:59:27,065 - [test_login.py-->line:44] - ERROR: 用例手机号未注册执行通过
+2020-03-11 20:59:27,315 - [test_login.py-->line:44] - ERROR: 用例密码错误执行通过
+2020-03-11 20:59:27,498 - [test_login.py-->line:44] - ERROR: 用例手机号格式错误执行通过
+2020-03-11 20:59:27,867 - [test_prolist.py-->line:73] - ERROR: 用例获取项目列表执行通过
+2020-03-11 20:59:28,059 - [test_prolist.py-->line:73] - ERROR: 用例获取项目列表执行通过
+2020-03-11 20:59:28,553 - [test_recharge.py-->line:93] - ERROR: 用例充值成功-整数执行通过
+2020-03-11 20:59:28,916 - [test_recharge.py-->line:93] - ERROR: 用例充值成功-1位小数执行通过
+2020-03-11 20:59:29,311 - [test_recharge.py-->line:93] - ERROR: 用例充值成功-2位小数执行通过
+2020-03-11 20:59:29,688 - [test_recharge.py-->line:93] - ERROR: 用例充值成功-50万执行通过
+2020-03-11 20:59:29,968 - [test_recharge.py-->line:93] - ERROR: 用例会员id为空执行通过
+2020-03-11 20:59:30,159 - [test_recharge.py-->line:93] - ERROR: 用例id不是当前登录的用户执行通过
+2020-03-11 20:59:30,348 - [test_recharge.py-->line:93] - ERROR: 用例会员id为字符串执行通过
+2020-03-11 20:59:30,540 - [test_recharge.py-->line:93] - ERROR: 用例会员id为小数执行通过
+2020-03-11 20:59:30,743 - [test_recharge.py-->line:87] - ERROR: 用例充值金额为0执行未通过
+2020-03-11 20:59:30,743 - [test_recharge.py-->line:88] - ERROR: 2 != 0
+Traceback (most recent call last):
+  File "D:\apitest\testcases\test_recharge.py", line 77, in test_recharge
+    self.assertEqual(expected["code"], res["code"])
+  File "D:\Python38\lib\unittest\case.py", line 912, in assertEqual
+    assertion_func(first, second, msg=msg)
+  File "D:\Python38\lib\unittest\case.py", line 905, in _baseAssertEqual
+    raise self.failureException(msg)
+AssertionError: 2 != 0
+2020-03-11 20:59:30,995 - [test_recharge.py-->line:93] - ERROR: 用例充值金额为负数执行通过
+2020-03-11 20:59:31,251 - [test_recharge.py-->line:87] - ERROR: 用例充值金额为空执行未通过
+2020-03-11 20:59:31,251 - [test_recharge.py-->line:88] - ERROR: 1 != 2
+Traceback (most recent call last):
+  File "D:\apitest\testcases\test_recharge.py", line 77, in test_recharge
+    self.assertEqual(expected["code"], res["code"])
+  File "D:\Python38\lib\unittest\case.py", line 912, in assertEqual
+    assertion_func(first, second, msg=msg)
+  File "D:\Python38\lib\unittest\case.py", line 905, in _baseAssertEqual
+    raise self.failureException(msg)
+AssertionError: 1 != 2
+2020-03-11 20:59:31,515 - [test_recharge.py-->line:93] - ERROR: 用例充值金额-3位小数执行通过
+2020-03-11 20:59:31,802 - [test_recharge.py-->line:93] - ERROR: 用例充值金额-大于50万执行通过
+2020-03-11 20:59:32,061 - [test_recharge.py-->line:93] - ERROR: 用例充值金额-非数字执行通过
+2020-03-11 20:59:32,443 - [test_register.py-->line:58] - ERROR: 用例注册成功-带注册名执行通过
+2020-03-11 20:59:32,768 - [test_register.py-->line:58] - ERROR: 用例成功-不带用户名执行通过
+2020-03-11 20:59:32,952 - [test_register.py-->line:58] - ERROR: 用例不输入手机号执行通过
+2020-03-11 20:59:33,148 - [test_register.py-->line:58] - ERROR: 用例手机号长度10位执行通过
+2020-03-11 20:59:33,338 - [test_register.py-->line:58] - ERROR: 用例手机号长度12位执行通过
+2020-03-11 20:59:33,578 - [test_register.py-->line:58] - ERROR: 用例手机号含有非法字符执行通过
+2020-03-11 20:59:33,843 - [test_register.py-->line:58] - ERROR: 用例已注册过的手机号执行通过
+2020-03-11 20:59:34,030 - [test_register.py-->line:58] - ERROR: 用例密码7位执行通过
+2020-03-11 20:59:34,220 - [test_register.py-->line:58] - ERROR: 用例密码17位执行通过
+2020-03-11 20:59:34,461 - [test_register.py-->line:58] - ERROR: 用例不输入密码执行通过
+2020-03-11 20:59:34,644 - [test_register.py-->line:58] - ERROR: 用例注册名11位执行通过
+2020-03-11 20:59:34,834 - [test_register.py-->line:58] - ERROR: 用例类型输入非0，1内容执行通过
+2020-03-11 20:59:35,137 - [test_register.py-->line:58] - ERROR: 用例不输入类型执行通过
+2020-03-11 20:59:35,451 - [test_update.py-->line:87] - ERROR: 用例更新会员信息执行通过
+2020-03-11 20:59:35,676 - [test_update.py-->line:87] - ERROR: 用例更新会员信息执行通过
+2020-03-11 20:59:35,868 - [test_update.py-->line:87] - ERROR: 用例更新会员信息执行通过
+2020-03-11 20:59:36,070 - [test_update.py-->line:87] - ERROR: 用例更新会员信息执行通过
+2020-03-11 20:59:36,595 - [test_withdraw.py-->line:84] - ERROR: 用例提现成功-整数执行通过
+2020-03-11 20:59:36,987 - [test_withdraw.py-->line:84] - ERROR: 用例提现成功-1位小数执行通过
+2020-03-11 20:59:37,363 - [test_withdraw.py-->line:84] - ERROR: 用例提现成功-2位小数执行通过
+2020-03-11 20:59:37,796 - [test_withdraw.py-->line:84] - ERROR: 用例提现成功-50万执行通过
+2020-03-11 20:59:37,989 - [test_withdraw.py-->line:84] - ERROR: 用例会员id为空执行通过
+2020-03-11 20:59:38,183 - [test_withdraw.py-->line:78] - ERROR: 用例id不是当前登录的用户执行未通过
+2020-03-11 20:59:38,183 - [test_withdraw.py-->line:79] - ERROR: 1007 != 2
+Traceback (most recent call last):
+  File "D:\apitest\testcases\test_withdraw.py", line 68, in test_recharge
+    self.assertEqual(expected["code"], res["code"])
+  File "D:\Python38\lib\unittest\case.py", line 912, in assertEqual
+    assertion_func(first, second, msg=msg)
+  File "D:\Python38\lib\unittest\case.py", line 905, in _baseAssertEqual
+    raise self.failureException(msg)
+AssertionError: 1007 != 2
+2020-03-11 20:59:38,414 - [test_withdraw.py-->line:78] - ERROR: 用例会员id为字符串执行未通过
+2020-03-11 20:59:38,414 - [test_withdraw.py-->line:79] - ERROR: 2 != 0
+Traceback (most recent call last):
+  File "D:\apitest\testcases\test_withdraw.py", line 68, in test_recharge
+    self.assertEqual(expected["code"], res["code"])
+  File "D:\Python38\lib\unittest\case.py", line 912, in assertEqual
+    assertion_func(first, second, msg=msg)
+  File "D:\Python38\lib\unittest\case.py", line 905, in _baseAssertEqual
+    raise self.failureException(msg)
+AssertionError: 2 != 0
+2020-03-11 20:59:38,643 - [test_withdraw.py-->line:78] - ERROR: 用例会员id为小数执行未通过
+2020-03-11 20:59:38,644 - [test_withdraw.py-->line:79] - ERROR: '数字格式化异常' != '数值参数格式不正确'
+- 数字格式化异常
++ 数值参数格式不正确
+Traceback (most recent call last):
+  File "D:\apitest\testcases\test_withdraw.py", line 69, in test_recharge
+    self.assertEqual(expected["msg"], res["msg"])
+  File "D:\Python38\lib\unittest\case.py", line 912, in assertEqual
+    assertion_func(first, second, msg=msg)
+  File "D:\Python38\lib\unittest\case.py", line 1292, in assertMultiLineEqual
+    self.fail(self._formatMessage(msg, standardMsg))
+  File "D:\Python38\lib\unittest\case.py", line 753, in fail
+    raise self.failureException(msg)
+AssertionError: '数字格式化异常' != '数值参数格式不正确'
+- 数字格式化异常
++ 数值参数格式不正确
+
+2020-03-11 20:59:38,858 - [test_withdraw.py-->line:78] - ERROR: 用例提现金额为0执行未通过
+2020-03-11 20:59:38,858 - [test_withdraw.py-->line:79] - ERROR: 2 != 0
+Traceback (most recent call last):
+  File "D:\apitest\testcases\test_withdraw.py", line 68, in test_recharge
+    self.assertEqual(expected["code"], res["code"])
+  File "D:\Python38\lib\unittest\case.py", line 912, in assertEqual
+    assertion_func(first, second, msg=msg)
+  File "D:\Python38\lib\unittest\case.py", line 905, in _baseAssertEqual
+    raise self.failureException(msg)
+AssertionError: 2 != 0
+2020-03-11 20:59:39,078 - [test_withdraw.py-->line:84] - ERROR: 用例提现金额为负数执行通过
+2020-03-11 20:59:39,294 - [test_withdraw.py-->line:84] - ERROR: 用例提现金额为空执行通过
+2020-03-11 20:59:39,542 - [test_withdraw.py-->line:84] - ERROR: 用例提现金额-3位小数执行通过
+2020-03-11 20:59:39,761 - [test_withdraw.py-->line:84] - ERROR: 用例提现金额-大于50万执行通过
+2020-03-11 20:59:39,995 - [test_withdraw.py-->line:84] - ERROR: 用例提现金额-非数字执行通过
